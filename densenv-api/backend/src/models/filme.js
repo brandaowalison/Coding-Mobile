@@ -25,7 +25,6 @@ const FilmeSchema = new mongoose.Schema({
     genre: {
         type: String,
         required: true,
-        enum: ["Ação","Comédia","Drama","Terror","Ficção Científica","Animação"]
     },
     director: {
         type: String,
@@ -36,7 +35,7 @@ const FilmeSchema = new mongoose.Schema({
         required: true,
 
     }
-});
+})
 
 const Filme = mongoose.model('Filmes', FilmeSchema);
 

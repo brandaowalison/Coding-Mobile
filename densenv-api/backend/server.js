@@ -1,4 +1,5 @@
 const express = require("express")
+const cors = require('cors')
 const connectDB = require('./src/db/mongoose')
 const filmesRouter = require('./src/routes/filme.routes')
 
@@ -7,6 +8,7 @@ const port = 3000
 
 app.use(express.json())
 
+app.use(cors());
 
 connectDB()
 
