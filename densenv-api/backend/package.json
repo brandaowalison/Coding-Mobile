@@ -1,0 +1,15 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "densenvolvimento de api densenvolvida em nodejs com mongodb ",
+  "main": "index.js",
+  "scripts": {
+    "test": "./src/server.js"
+  },
+  "author": "Walison Brandão",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoose": "^8.12.1"
+  }
+}
